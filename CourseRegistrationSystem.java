@@ -111,9 +111,9 @@ public class CourseRegistrationSystem {
         courses.add(new Course("21HS61B", "Principles of Management & Economics", 3, "Tue/Thu 1:00 PM"));
         courses.add(new Course("21EI62", "PLC and SCADA Systems ", 4, "Mon/Wed/Fri 10:00 AM"));
         courses.add(new Course("21EI63", "Digital Signal Processing", 4, "Tue/Thu 1:00 PM"));
-        courses.add(new Course("21EI64DX", "Professional Core Elective(Group – D) ", 3, "Tue/Thu 1:00 PM"));
-        courses.add(new Course("21EI65EX", "Professional Core Elective (Cluster Elective) (Group- E)", 3, "Tue/Thu 1:00 PM"));
-        courses.add(new Course("21IE66FX", "Institutional Electives – I (Group-F)", 3, "Tue/Thu 1:00 PM"));
+        courses.add(new Course("21EI64DX", "Professional Core Elective 1", 3, "Tue/Thu 1:00 PM"));
+        courses.add(new Course("21EI65EX", "Professional Core Elective 2", 3, "Tue/Thu 1:00 PM"));
+        courses.add(new Course("21IE66FX", "Institutional Electives", 3, "Tue/Thu 1:00 PM"));
         // Add more courses...
 
         List<Student> students = new ArrayList<>();
