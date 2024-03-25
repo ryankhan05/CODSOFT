@@ -108,13 +108,17 @@ class Student {
 public class CourseRegistrationSystem {
     public static void main(String[] args) {
         List<Course> courses = new ArrayList<>();
-        courses.add(new Course("CSE101", "Introduction to Computer Science", "Basic concepts of programming", 30, "Mon/Wed/Fri 10:00 AM"));
-        courses.add(new Course("MAT201", "Calculus I", "Fundamental principles of calculus", 25, "Tue/Thu 1:00 PM"));
+        courses.add(new Course("21HS61B", "Principles of Management & Economics", 3, "Tue/Thu 1:00 PM"));
+        courses.add(new Course("21EI62", "PLC and SCADA Systems ", 4, "Mon/Wed/Fri 10:00 AM"));
+        courses.add(new Course("21EI63", "Digital Signal Processing", 4, "Tue/Thu 1:00 PM"));
+        courses.add(new Course("21EI64DX", "Professional Core Elective(Group – D) ", 3, "Tue/Thu 1:00 PM"));
+        courses.add(new Course("21EI65EX", "Professional Core Elective (Cluster Elective) (Group- E)", 3, "Tue/Thu 1:00 PM"));
+        courses.add(new Course("21IE66FX", "Institutional Electives – I (Group-F)", 3, "Tue/Thu 1:00 PM"));
         // Add more courses...
 
         List<Student> students = new ArrayList<>();
-        students.add(new Student(1001, "Alice"));
-        students.add(new Student(1002, "Bob"));
+        students.add(new Student(1001, "Rayyan"));
+        students.add(new Student(1002, "Zehra"));
         // Add more students...
 
         Scanner scanner = new Scanner(System.in);
