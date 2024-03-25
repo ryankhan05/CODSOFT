@@ -29,13 +29,17 @@ public class GradeCalculator {
         if (averagePercentage >= 90) {
             grade = 'S';
         } else if (averagePercentage >= 80) {
-            grade = 'A';
+            grade = 'A+';
         } else if (averagePercentage >= 70) {
-            grade = 'B';
+            grade = 'A';
         } else if (averagePercentage >= 60) {
-            grade = 'C';
+            grade = 'B+';
+        } else if (averagePercentage >= 55) {
+            grade = 'B';
         } else if (averagePercentage >= 50) {
-            grade = 'D';
+            grade = 'C';
+         } else if (averagePercentage >= 40) {
+            grade = 'P';
         } else {
             grade = 'F';
         }
