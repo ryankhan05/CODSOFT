@@ -25,23 +25,23 @@ public class GradeCalculator {
         System.out.println("Average Percentage: " + averagePercentage + "%");
 
         // Assign grades based on average percentage
-        char grade;
+        String grade;
         if (averagePercentage >= 90) {
-            grade = 'S';
+            grade = "S";
         } else if (averagePercentage >= 80) {
-            grade = 'A+';
+            grade = "A+";
         } else if (averagePercentage >= 70) {
-            grade = 'A';
+            grade = "A";
         } else if (averagePercentage >= 60) {
-            grade = 'B+';
+            grade = "B+";
         } else if (averagePercentage >= 55) {
-            grade = 'B';
+            grade = "B";
         } else if (averagePercentage >= 50) {
-            grade = 'C';
-         } else if (averagePercentage >= 40) {
-            grade = 'P';
+            grade = "C";
+        } else if (averagePercentage >= 40) {
+            grade = "P";
         } else {
-            grade = 'F';
+            grade = "F";
         }
 
         System.out.println("Grade: " + grade);
